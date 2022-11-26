@@ -199,7 +199,7 @@ def onmessage(update,bot:ObigramClient):
         #tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'JAGB2021'
+        tl_admin_user = 'killerj00'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -216,7 +216,7 @@ def onmessage(update,bot:ObigramClient):
                 user_info = jdb.get_user(username)
                 jdb.save()
         else:
-            mensaje = "No tienes acceso.\n👨🏻‍💻Dev: @Ghosthell0210"
+            mensaje = "No tienes acceso.\n👨🏻‍💻Dev: @killerj00"
             intento_msg = "💢El usuario @"+username+ "💢"
             bot.sendMessage(update.message.chat.id,mensaje)
             bot.sendMessage(2055672924,intento_msg)
